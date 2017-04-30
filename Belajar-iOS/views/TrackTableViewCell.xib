@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="98" id="KGk-i7-Jjw" customClass="TrackTableViewCell" customModule="Belajar_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="98"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="97.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v6a-Y4-XaO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="98"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1mM-m5-U4Q">
+                                <rect key="frame" x="8" y="9" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1mM-m5-U4Q" secondAttribute="height" multiplier="1:1" id="0O6-q3-4he"/>
+                                    <constraint firstAttribute="width" constant="80" id="1kE-f6-ek7"/>
+                                    <constraint firstAttribute="height" constant="80" id="Ezc-Ze-FCg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKw-G2-tGs" customClass="MarqueeLabel" customModule="MarqueeLabel">
+                                <rect key="frame" x="96" y="8" width="216" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fadeLength">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="04O-xN-EZm" customClass="MarqueeLabel" customModule="MarqueeLabel">
+                                <rect key="frame" x="96" y="37" width="216" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fadeLength">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZG-TK-EBb" customClass="MarqueeLabel" customModule="MarqueeLabel">
+                                <rect key="frame" x="96" y="63" width="216" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fadeLength">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="04O-xN-EZm" firstAttribute="leading" secondItem="1mM-m5-U4Q" secondAttribute="trailing" constant="8" id="0RJ-QV-mL4"/>
+                            <constraint firstItem="04O-xN-EZm" firstAttribute="top" secondItem="GKw-G2-tGs" secondAttribute="bottom" constant="8" id="8Cz-J6-NK8"/>
+                            <constraint firstAttribute="trailing" secondItem="GKw-G2-tGs" secondAttribute="trailing" constant="8" id="EMv-WC-OcH"/>
+                            <constraint firstItem="1mM-m5-U4Q" firstAttribute="leading" secondItem="v6a-Y4-XaO" secondAttribute="leading" constant="8" id="L5R-es-xeA"/>
+                            <constraint firstAttribute="trailing" secondItem="gZG-TK-EBb" secondAttribute="trailing" constant="8" id="N0M-ue-PSv"/>
+                            <constraint firstItem="GKw-G2-tGs" firstAttribute="leading" secondItem="1mM-m5-U4Q" secondAttribute="trailing" constant="8" id="NFv-td-zka"/>
+                            <constraint firstAttribute="bottom" secondItem="1mM-m5-U4Q" secondAttribute="bottom" constant="9" id="V4t-f4-9rh"/>
+                            <constraint firstItem="1mM-m5-U4Q" firstAttribute="top" secondItem="v6a-Y4-XaO" secondAttribute="top" constant="9" id="dVT-pC-BrV"/>
+                            <constraint firstItem="gZG-TK-EBb" firstAttribute="top" secondItem="04O-xN-EZm" secondAttribute="bottom" constant="8" id="eKh-LO-RFw"/>
+                            <constraint firstAttribute="trailing" secondItem="04O-xN-EZm" secondAttribute="trailing" constant="8" id="lmN-Ml-nm7"/>
+                            <constraint firstItem="GKw-G2-tGs" firstAttribute="top" secondItem="v6a-Y4-XaO" secondAttribute="top" constant="8" id="qSP-8u-T9y"/>
+                            <constraint firstItem="gZG-TK-EBb" firstAttribute="leading" secondItem="1mM-m5-U4Q" secondAttribute="trailing" constant="8" id="tF1-hI-W2Z"/>
+                            <constraint firstItem="gZG-TK-EBb" firstAttribute="leading" secondItem="1mM-m5-U4Q" secondAttribute="trailing" constant="8" id="zqn-bh-tcb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="v6a-Y4-XaO" secondAttribute="bottom" id="TZi-bQ-hY3"/>
+                    <constraint firstItem="v6a-Y4-XaO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="boi-91-vnb"/>
+                    <constraint firstItem="v6a-Y4-XaO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="igT-Ql-fVA"/>
+                    <constraint firstAttribute="trailing" secondItem="v6a-Y4-XaO" secondAttribute="trailing" id="nC0-b2-2sP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="albumNameLabel" destination="gZG-TK-EBb" id="wOt-9z-sSB"/>
+                <outlet property="artistNameLabel" destination="04O-xN-EZm" id="zLV-bE-5og"/>
+                <outlet property="gambarAlbumImage" destination="1mM-m5-U4Q" id="kY3-Qg-gnv"/>
+                <outlet property="trackNameLabel" destination="GKw-G2-tGs" id="0bk-7t-j10"/>
+            </connections>
+            <point key="canvasLocation" x="24" y="66"/>
+        </tableViewCell>
+    </objects>
+</document>

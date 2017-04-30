@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0004D7871EB62A4E0022D68A /* TrackResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004D7861EB62A4E0022D68A /* TrackResponse.swift */; };
+		0004D7CA1EB63D3E0022D68A /* TrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004D7C81EB63D3E0022D68A /* TrackTableViewCell.swift */; };
+		0004D7CB1EB63D3E0022D68A /* TrackTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0004D7C91EB63D3E0022D68A /* TrackTableViewCell.xib */; };
 		008A7F9C1EB625FC0082D3DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A7F9B1EB625FC0082D3DB /* AppDelegate.swift */; };
 		008A7F9E1EB625FC0082D3DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A7F9D1EB625FC0082D3DB /* ViewController.swift */; };
 		008A7FA11EB625FC0082D3DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008A7F9F1EB625FC0082D3DB /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		0004D7861EB62A4E0022D68A /* TrackResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrackResponse.swift; path = models/TrackResponse.swift; sourceTree = "<group>"; };
+		0004D7C81EB63D3E0022D68A /* TrackTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrackTableViewCell.swift; path = views/TrackTableViewCell.swift; sourceTree = "<group>"; };
+		0004D7C91EB63D3E0022D68A /* TrackTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TrackTableViewCell.xib; path = views/TrackTableViewCell.xib; sourceTree = "<group>"; };
 		008A7F981EB625FC0082D3DB /* Belajar-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Belajar-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		008A7F9B1EB625FC0082D3DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		008A7F9D1EB625FC0082D3DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,15 @@
 			name = models;
 			sourceTree = "<group>";
 		};
+		0004D7C71EB63C320022D68A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				0004D7C81EB63D3E0022D68A /* TrackTableViewCell.swift */,
+				0004D7C91EB63D3E0022D68A /* TrackTableViewCell.xib */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
 		008A7F8F1EB625FC0082D3DB = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +139,7 @@
 		008A7F9A1EB625FC0082D3DB /* Belajar-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				0004D7C71EB63C320022D68A /* views */,
 				0004D7851EB62A340022D68A /* models */,
 				008A7F9B1EB625FC0082D3DB /* AppDelegate.swift */,
 				008A7F9D1EB625FC0082D3DB /* ViewController.swift */,
@@ -301,6 +315,7 @@
 				008A7FA91EB625FC0082D3DB /* LaunchScreen.storyboard in Resources */,
 				008A7FA61EB625FC0082D3DB /* Assets.xcassets in Resources */,
 				008A7FA11EB625FC0082D3DB /* Main.storyboard in Resources */,
+				0004D7CB1EB63D3E0022D68A /* TrackTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +478,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0004D7CA1EB63D3E0022D68A /* TrackTableViewCell.swift in Sources */,
 				008A7FA41EB625FC0082D3DB /* Belajar_iOS.xcdatamodeld in Sources */,
 				008A7F9E1EB625FC0082D3DB /* ViewController.swift in Sources */,
 				0004D7871EB62A4E0022D68A /* TrackResponse.swift in Sources */,
