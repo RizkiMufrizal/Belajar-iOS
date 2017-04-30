@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0004D7871EB62A4E0022D68A /* TrackResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004D7861EB62A4E0022D68A /* TrackResponse.swift */; };
 		008A7F9C1EB625FC0082D3DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A7F9B1EB625FC0082D3DB /* AppDelegate.swift */; };
 		008A7F9E1EB625FC0082D3DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A7F9D1EB625FC0082D3DB /* ViewController.swift */; };
 		008A7FA11EB625FC0082D3DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008A7F9F1EB625FC0082D3DB /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		008A7FA91EB625FC0082D3DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008A7FA71EB625FC0082D3DB /* LaunchScreen.storyboard */; };
 		008A7FB41EB625FD0082D3DB /* Belajar_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A7FB31EB625FD0082D3DB /* Belajar_iOSTests.swift */; };
 		008A7FBF1EB625FD0082D3DB /* Belajar_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A7FBE1EB625FD0082D3DB /* Belajar_iOSUITests.swift */; };
+		5FCC7965F4552A500B079092 /* Pods_Belajar_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7055119C787BEE17930E666E /* Pods_Belajar_iOS.framework */; };
+		7411A42D4ABB94E9890DE339 /* Pods_Belajar_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E8C7DF207FA6B3E5476FCB /* Pods_Belajar_iOSTests.framework */; };
+		985E4EFB082D3DD3C8ACDFDA /* Pods_Belajar_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886F339EEDE48E192E52F0B6 /* Pods_Belajar_iOSUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0004D7861EB62A4E0022D68A /* TrackResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrackResponse.swift; path = models/TrackResponse.swift; sourceTree = "<group>"; };
 		008A7F981EB625FC0082D3DB /* Belajar-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Belajar-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		008A7F9B1EB625FC0082D3DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		008A7F9D1EB625FC0082D3DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,15 @@
 		008A7FBA1EB625FD0082D3DB /* Belajar-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Belajar-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		008A7FBE1EB625FD0082D3DB /* Belajar_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Belajar_iOSUITests.swift; sourceTree = "<group>"; };
 		008A7FC01EB625FD0082D3DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E8C7DF207FA6B3E5476FCB /* Pods_Belajar_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Belajar_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		168024C80229019283C0782C /* Pods-Belajar-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Belajar-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Belajar-iOSTests/Pods-Belajar-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		189035A2E9C4A648DE9A6361 /* Pods-Belajar-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Belajar-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Belajar-iOSUITests/Pods-Belajar-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5ABECC0B82830ACDE9D8CE5C /* Pods-Belajar-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Belajar-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Belajar-iOSTests/Pods-Belajar-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7055119C787BEE17930E666E /* Pods_Belajar_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Belajar_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		760B05827837B193F9C283B1 /* Pods-Belajar-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Belajar-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Belajar-iOS/Pods-Belajar-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		886F339EEDE48E192E52F0B6 /* Pods_Belajar_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Belajar_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DDDB7BEACA3AE02D9CABF5C /* Pods-Belajar-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Belajar-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Belajar-iOS/Pods-Belajar-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BAA21BB7249179A7F2B38D38 /* Pods-Belajar-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Belajar-iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Belajar-iOSUITests/Pods-Belajar-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FCC7965F4552A500B079092 /* Pods_Belajar_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7411A42D4ABB94E9890DE339 /* Pods_Belajar_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985E4EFB082D3DD3C8ACDFDA /* Pods_Belajar_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0004D7851EB62A340022D68A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				0004D7861EB62A4E0022D68A /* TrackResponse.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
 		008A7F8F1EB625FC0082D3DB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				008A7FB21EB625FD0082D3DB /* Belajar-iOSTests */,
 				008A7FBD1EB625FD0082D3DB /* Belajar-iOSUITests */,
 				008A7F991EB625FC0082D3DB /* Products */,
+				388DDF0A589DF7B101789EB8 /* Pods */,
+				BE025C146452D23288FB99B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +126,7 @@
 		008A7F9A1EB625FC0082D3DB /* Belajar-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				0004D7851EB62A340022D68A /* models */,
 				008A7F9B1EB625FC0082D3DB /* AppDelegate.swift */,
 				008A7F9D1EB625FC0082D3DB /* ViewController.swift */,
 				008A7F9F1EB625FC0082D3DB /* Main.storyboard */,
@@ -128,6 +156,29 @@
 			path = "Belajar-iOSUITests";
 			sourceTree = "<group>";
 		};
+		388DDF0A589DF7B101789EB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DDDB7BEACA3AE02D9CABF5C /* Pods-Belajar-iOS.debug.xcconfig */,
+				760B05827837B193F9C283B1 /* Pods-Belajar-iOS.release.xcconfig */,
+				5ABECC0B82830ACDE9D8CE5C /* Pods-Belajar-iOSTests.debug.xcconfig */,
+				168024C80229019283C0782C /* Pods-Belajar-iOSTests.release.xcconfig */,
+				BAA21BB7249179A7F2B38D38 /* Pods-Belajar-iOSUITests.debug.xcconfig */,
+				189035A2E9C4A648DE9A6361 /* Pods-Belajar-iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE025C146452D23288FB99B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7055119C787BEE17930E666E /* Pods_Belajar_iOS.framework */,
+				13E8C7DF207FA6B3E5476FCB /* Pods_Belajar_iOSTests.framework */,
+				886F339EEDE48E192E52F0B6 /* Pods_Belajar_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 008A7FC31EB625FD0082D3DB /* Build configuration list for PBXNativeTarget "Belajar-iOS" */;
 			buildPhases = (
+				CF8C39A6803BCCAB19D6D27C /* [CP] Check Pods Manifest.lock */,
 				008A7F941EB625FC0082D3DB /* Sources */,
 				008A7F951EB625FC0082D3DB /* Frameworks */,
 				008A7F961EB625FC0082D3DB /* Resources */,
+				3A7170D07275953C7A8EDE51 /* [CP] Embed Pods Frameworks */,
+				C5CCC26A9024FDC2CA87A47A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 008A7FC61EB625FD0082D3DB /* Build configuration list for PBXNativeTarget "Belajar-iOSTests" */;
 			buildPhases = (
+				F36A00A91084B77B65A6A3DD /* [CP] Check Pods Manifest.lock */,
 				008A7FAB1EB625FD0082D3DB /* Sources */,
 				008A7FAC1EB625FD0082D3DB /* Frameworks */,
 				008A7FAD1EB625FD0082D3DB /* Resources */,
+				D9B2F1F6D32FB8BDF8E4DDC1 /* [CP] Embed Pods Frameworks */,
+				333808978E716F2F681BF6D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 008A7FC91EB625FD0082D3DB /* Build configuration list for PBXNativeTarget "Belajar-iOSUITests" */;
 			buildPhases = (
+				680341315C11DE05B06AFC1B /* [CP] Check Pods Manifest.lock */,
 				008A7FB61EB625FD0082D3DB /* Sources */,
 				008A7FB71EB625FD0082D3DB /* Frameworks */,
 				008A7FB81EB625FD0082D3DB /* Resources */,
+				1E8F96CA8D727F2419F95F0C /* [CP] Embed Pods Frameworks */,
+				6C46E8DF7416B7F98EB6BF7D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +320,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E8F96CA8D727F2419F95F0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Belajar-iOSUITests/Pods-Belajar-iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		333808978E716F2F681BF6D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Belajar-iOSTests/Pods-Belajar-iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A7170D07275953C7A8EDE51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Belajar-iOS/Pods-Belajar-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		680341315C11DE05B06AFC1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C46E8DF7416B7F98EB6BF7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Belajar-iOSUITests/Pods-Belajar-iOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5CCC26A9024FDC2CA87A47A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Belajar-iOS/Pods-Belajar-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF8C39A6803BCCAB19D6D27C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9B2F1F6D32FB8BDF8E4DDC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Belajar-iOSTests/Pods-Belajar-iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F36A00A91084B77B65A6A3DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		008A7F941EB625FC0082D3DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,6 +465,7 @@
 			files = (
 				008A7FA41EB625FC0082D3DB /* Belajar_iOS.xcdatamodeld in Sources */,
 				008A7F9E1EB625FC0082D3DB /* ViewController.swift in Sources */,
+				0004D7871EB62A4E0022D68A /* TrackResponse.swift in Sources */,
 				008A7F9C1EB625FC0082D3DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,10 +618,12 @@
 		};
 		008A7FC41EB625FD0082D3DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DDDB7BEACA3AE02D9CABF5C /* Pods-Belajar-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LAJGT59W97;
 				INFOPLIST_FILE = "Belajar-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rizki.mufrizal.Belajar-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,10 +633,12 @@
 		};
 		008A7FC51EB625FD0082D3DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 760B05827837B193F9C283B1 /* Pods-Belajar-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LAJGT59W97;
 				INFOPLIST_FILE = "Belajar-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rizki.mufrizal.Belajar-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,6 +648,7 @@
 		};
 		008A7FC71EB625FD0082D3DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABECC0B82830ACDE9D8CE5C /* Pods-Belajar-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +664,7 @@
 		};
 		008A7FC81EB625FD0082D3DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 168024C80229019283C0782C /* Pods-Belajar-iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +680,7 @@
 		};
 		008A7FCA1EB625FD0082D3DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAA21BB7249179A7F2B38D38 /* Pods-Belajar-iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = LAJGT59W97;
@@ -489,6 +695,7 @@
 		};
 		008A7FCB1EB625FD0082D3DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 189035A2E9C4A648DE9A6361 /* Pods-Belajar-iOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = LAJGT59W97;
@@ -520,6 +727,7 @@
 				008A7FC51EB625FD0082D3DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		008A7FC61EB625FD0082D3DB /* Build configuration list for PBXNativeTarget "Belajar-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +736,7 @@
 				008A7FC81EB625FD0082D3DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		008A7FC91EB625FD0082D3DB /* Build configuration list for PBXNativeTarget "Belajar-iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +745,7 @@
 				008A7FCB1EB625FD0082D3DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
