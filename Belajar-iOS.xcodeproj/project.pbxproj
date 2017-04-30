@@ -10,6 +10,8 @@
 		0004D7871EB62A4E0022D68A /* TrackResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004D7861EB62A4E0022D68A /* TrackResponse.swift */; };
 		0004D7CA1EB63D3E0022D68A /* TrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004D7C81EB63D3E0022D68A /* TrackTableViewCell.swift */; };
 		0004D7CB1EB63D3E0022D68A /* TrackTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0004D7C91EB63D3E0022D68A /* TrackTableViewCell.xib */; };
+		0004D7CE1EB64E240022D68A /* TrackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004D7CD1EB64E240022D68A /* TrackService.swift */; };
+		0004D7D11EB650E00022D68A /* ConvertString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004D7D01EB650E00022D68A /* ConvertString.swift */; };
 		008A7F9C1EB625FC0082D3DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A7F9B1EB625FC0082D3DB /* AppDelegate.swift */; };
 		008A7F9E1EB625FC0082D3DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A7F9D1EB625FC0082D3DB /* ViewController.swift */; };
 		008A7FA11EB625FC0082D3DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008A7F9F1EB625FC0082D3DB /* Main.storyboard */; };
@@ -44,6 +46,8 @@
 		0004D7861EB62A4E0022D68A /* TrackResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrackResponse.swift; path = models/TrackResponse.swift; sourceTree = "<group>"; };
 		0004D7C81EB63D3E0022D68A /* TrackTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrackTableViewCell.swift; path = views/TrackTableViewCell.swift; sourceTree = "<group>"; };
 		0004D7C91EB63D3E0022D68A /* TrackTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TrackTableViewCell.xib; path = views/TrackTableViewCell.xib; sourceTree = "<group>"; };
+		0004D7CD1EB64E240022D68A /* TrackService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrackService.swift; path = services/TrackService.swift; sourceTree = "<group>"; };
+		0004D7D01EB650E00022D68A /* ConvertString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConvertString.swift; path = helpers/ConvertString.swift; sourceTree = "<group>"; };
 		008A7F981EB625FC0082D3DB /* Belajar-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Belajar-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		008A7F9B1EB625FC0082D3DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		008A7F9D1EB625FC0082D3DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +118,22 @@
 			name = views;
 			sourceTree = "<group>";
 		};
+		0004D7CC1EB64E0C0022D68A /* services */ = {
+			isa = PBXGroup;
+			children = (
+				0004D7CD1EB64E240022D68A /* TrackService.swift */,
+			);
+			name = services;
+			sourceTree = "<group>";
+		};
+		0004D7CF1EB650D00022D68A /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0004D7D01EB650E00022D68A /* ConvertString.swift */,
+			);
+			name = helpers;
+			sourceTree = "<group>";
+		};
 		008A7F8F1EB625FC0082D3DB = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +159,8 @@
 		008A7F9A1EB625FC0082D3DB /* Belajar-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				0004D7CF1EB650D00022D68A /* helpers */,
+				0004D7CC1EB64E0C0022D68A /* services */,
 				0004D7C71EB63C320022D68A /* views */,
 				0004D7851EB62A340022D68A /* models */,
 				008A7F9B1EB625FC0082D3DB /* AppDelegate.swift */,
@@ -478,9 +500,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0004D7D11EB650E00022D68A /* ConvertString.swift in Sources */,
 				0004D7CA1EB63D3E0022D68A /* TrackTableViewCell.swift in Sources */,
 				008A7FA41EB625FC0082D3DB /* Belajar_iOS.xcdatamodeld in Sources */,
 				008A7F9E1EB625FC0082D3DB /* ViewController.swift in Sources */,
+				0004D7CE1EB64E240022D68A /* TrackService.swift in Sources */,
 				0004D7871EB62A4E0022D68A /* TrackResponse.swift in Sources */,
 				008A7F9C1EB625FC0082D3DB /* AppDelegate.swift in Sources */,
 			);
