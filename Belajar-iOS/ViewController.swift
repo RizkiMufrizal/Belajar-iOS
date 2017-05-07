@@ -14,6 +14,7 @@ import SwiftOverlays
 class ViewController: UIViewController {
 
     @IBOutlet weak var trackTable: UITableView!
+    let searchBar = UISearchBar()
 
     var rowData: [Item] = []
     var nextPage: String? = nil
@@ -32,6 +33,12 @@ class ViewController: UIViewController {
         self.getDefaultTrack(track: track, offset: nextInt, limit: limitInt)
         self.trackTable.delegate = self
         self.trackTable.dataSource = self
+
+        self.searchBar.placeholder = "Cari"
+        self.searchBar.delegate = self
+        self.searchBar.tintColor = UIColor.black
+        self.searchBar.sizeToFit()
+        self.navigationItem.titleView = searchBar
     }
 
     override func didReceiveMemoryWarning() {
@@ -103,5 +110,26 @@ extension ViewController: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 98
+    }
+}
+
+extension ViewController: UISearchBarDelegate {
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        self.track = self.searchBar.text!
+        self.nextInt = 0
+        self.getDefaultTrack(track: self.track, offset: self.nextInt, limit: self.limitInt)
+        self.searchBar.resignFirstResponder()
+        self.searchBar.setShowsCancelButton(false, animated: true)
+        self.searchBar.resignFirstResponder()
+    }
+
+    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+        self.searchBar.setShowsCancelButton(true, animated: true)
+    }
+
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        self.searchBar.text = nil
+        self.searchBar.setShowsCancelButton(false, animated: true)
+        self.searchBar.resignFirstResponder()
     }
 }
